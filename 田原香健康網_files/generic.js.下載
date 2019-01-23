@@ -1,0 +1,33 @@
+﻿$(function () {
+
+
+    //網站各頁面標題滑鼠移動時更換顏色
+    $(".generic-image-list .title").mouseenter(function () {
+        $(this).css("color", "#86684e");
+    });
+    $(".generic-image-list .title").mouseleave(function () {
+        $(this).css("color", "#ed6d00");
+    });
+    $(".playlet-box .title").mouseenter(function () {
+        $(this).css("color", "#86684e");
+    });
+    $(".playlet-box .title").mouseleave(function () {
+        $(this).css("color", "#ed6d00");
+    });
+
+    //加入討論的連結滑鼠移上時變局色
+    $(".join-discuss span a").mouseenter(function () {
+        $(this).css("color", "#ed6d00");
+    });
+    $(".join-discuss span a").mouseleave(function () {
+        $(this).css("color", "#86684e");
+    });
+    
+    $(".link").mouseenter(function () {
+        $(this).css("color", "#ed6d00");
+    });
+    $(".link").mouseleave(function () {
+        $(this).css("color", "#86684e");
+    });
+
+})
